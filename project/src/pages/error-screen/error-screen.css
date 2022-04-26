@@ -1,0 +1,40 @@
+.page--error {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+
+.page__main--error {
+  padding-top: 11px; }
+
+.error__not-found {
+  display: flex;
+  flex-grow: 1; }
+  .error__not-found .page__error-container {
+    display: flex; }
+
+.error {
+  padding: 0 15px 93px;
+  border-bottom: 2px solid rgba(222, 222, 222, 0.5); 
+  width: 100%;
+  padding: 0 0px 93px 38px; }
+
+.not-found__status-wrapper {
+  width: 420px;
+  margin-top: 16.7vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 94px;
+  text-align: center; }
+
+.not-found__status {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 32px;
+  line-height: 1.1875; }
+
+.not-found__status-description {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 1.5; }
